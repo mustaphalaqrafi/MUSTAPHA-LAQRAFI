@@ -509,67 +509,6 @@ textarea:focus-visible {
     font-weight: 400;
 }
 
-.code-window {
-    position: absolute;
-    right: -25px;
-    bottom: 9px;
-    z-index: 3;
-    width: 295px;
-    overflow: hidden;
-    border: 1px solid rgba(78, 115, 171, 0.36);
-    border-radius: 6px;
-    background: rgba(9, 15, 27, 0.93);
-    box-shadow: 0 19px 48px rgba(0, 0, 0, 0.52), 0 0 25px rgba(22, 119, 255, 0.12);
-    backdrop-filter: blur(12px);
-}
-
-.code-window-head {
-    display: flex;
-    height: 34px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 12px;
-    border-bottom: 1px solid rgba(150, 177, 220, 0.1);
-    color: #7588a5;
-    font-family: var(--mono);
-    font-size: 8px;
-}
-
-.code-window-head > i {
-    color: var(--cyan);
-}
-
-.window-dots {
-    display: flex;
-    gap: 4px;
-}
-
-.window-dots i {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #41516a;
-}
-
-.window-dots i:first-child { background: #ff6b73; }
-.window-dots i:nth-child(2) { background: #ffc857; }
-.window-dots i:last-child { background: #44d89a; }
-
-.code-window pre {
-    margin: 0;
-    padding: 13px 15px 15px;
-    color: #b7c5d9;
-    font-family: var(--mono);
-    font-size: 9px;
-    line-height: 1.8;
-    white-space: pre-wrap;
-}
-
-.code-purple { color: #b89bff; }
-.code-blue { color: #76aaff; }
-.code-green { color: #7fe0a2; }
-.code-cyan { color: #56d5ee; }
-
 .tech-float {
     position: absolute;
     z-index: 4;
@@ -1595,7 +1534,6 @@ textarea:focus-visible {
     .hero-art { width: min(100%, 540px); min-height: 480px; justify-self: center; margin-top: 15px; transform: none; }
     .portrait-frame { width: min(78%, 330px); }
     .portrait { height: 325px; }
-    .code-window { right: 0; bottom: 8px; width: min(295px, 67%); }
     .tech-html { left: 1%; }
     .tech-css { right: 0; }
     .scroll-cue { bottom: 22px; }
@@ -1636,8 +1574,6 @@ textarea:focus-visible {
     .portrait-frame { width: min(82%, 295px); padding: 9px; }
     .portrait { height: 285px; }
     .portrait-caption { align-items: flex-start; flex-direction: column; gap: 0; }
-    .code-window { right: -2px; bottom: 3px; width: 72%; }
-    .code-window pre { font-size: 8px; }
     .tech-float { width: 39px; height: 39px; }
     .tech-float i { font-size: 19px; }
     .tech-js { font-size: 11px; }
